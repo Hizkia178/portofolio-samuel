@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="profile-card neumorphic">
+            <div class="profile-header">
+                <img src="sam.jpeg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h2>Samuel Hutagalung</h2>
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <i class="fas fa-phone"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-comment"></i>
+            </div>
+            <h3>Skills</h3>
+            <div class="skills">
+                <span>UI Design</span>
+                <span>Branding</span>
+                <span>Mobile App</span>
+                <span>Illustrations</span>
+                <span>Graphic Design</span>
+                <span>UX</span>
+            </div>
+            <h3>Software Knowledge</h3>
+            <div class="software">
+                <i class="fab fa-sketch"></i>
+                <i class="fab fa-yandex"></i>
+                <i class="fab fa-amazon"></i>
+                <i class="fab fa-figma"></i>
+                <i class="fab fa-invision"></i>
+            </div>
+        </div>
+
+    <div class="music-player neumorphic">
+        <div class="song-info">
+            <div class="song-circle">
+                <img src="sam.jpeg" alt="Song Picture" class="song-pic">
+            </div>
+            <p class="song-title">Tell me if you wanna go home...</p>
+            <p class="artist-name">Hailee Steinfeld</p>
+        </div>
+        <div class="progress-bar">
+            <span>1:90</span>
+            <input type="range" value="50" class="song-slider">
+            <span>3:40</span>
+        </div>
+        <div class="player-controls">
+            <i class="fas fa-random control-btn"></i> 
+            <i class="fas fa-backward control-btn"></i> 
+            <i class="fas fa-play control-btn play-btn"></i> 
+            <i class="fas fa-forward control-btn"></i> 
+            <i class="fas fa-redo control-btn"></i> 
+        </div>
+        <div class="volume-control">
+            <i class="fas fa-volume-down"></i>
+            <input type="range" value="70" class="volume-slider">
+            <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+
+
+
+    <!-- Clock Card -->
+    <div class="clock neumorphic">
+        <div class="time-wrapper">
+            <div class="time-display">
+                <p id="hours">10</p>
+                <span>:</span>
+                <p id="minutes">00</p>
+            </div>
+            <div class="am-pm-toggle">
+                <button id="am-button" class="toggle-btn active">AM</button>
+                <button id="pm-button" class="toggle-btn">PM</button>
+            </div>
+        </div>
+    
+        <div class="time-control">
+            <div class="hour-control">
+                <button class="control-btn" id="hour-up">
+                    <i class="fas fa-chevron-up"></i>
+                </button>
+                <button class="control-btn" id="hour-down">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="minute-control">
+                <button class="control-btn" id="minute-up">
+                    <i class="fas fa-chevron-up"></i>
+                </button>
+                <button class="control-btn" id="minute-down">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
